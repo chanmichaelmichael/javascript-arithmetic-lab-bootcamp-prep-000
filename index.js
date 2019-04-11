@@ -15,11 +15,13 @@ function divide(a,b){
 }
 
 function inc(a){
-  return a++
+  var number = a++
+  return number
 }
 
 function dec(a){
-  return a--
+  var number = a--
+  return number
 }
 
 function makeInt(a){
